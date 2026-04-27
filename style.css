@@ -1,0 +1,211 @@
+@font-face {
+    font-family:"mypolice";
+    src: url(assets/Exposure.otf);
+}
+
+body {
+    margin: 0%;
+    margin-top: 0%;
+    padding: 0%;
+    background-color: white;
+}
+img{
+    width: 50%;
+}
+
+h1{
+    color:rgb(255, 255, 255); font-size: 25px; font-family:"mypolice";
+  
+}
+
+p{
+    color:rgb(0, 20, 41); font-size: 20px; 
+    font-family: "yorkten-slab-normal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 10px;
+}
+.h1div{
+    font-family:"mypolice";
+    font-size: 20px;
+    color: whitesmoke;
+    top: 20px;
+    left: 200px;
+    width: 150px;
+    height: 50px;
+    
+}
+
+hr{
+    color:rgba(77, 98, 119, 0); border-top: 50% dotted rgba(119, 136, 153, 0);
+}
+
+.bodydiv{
+    background-image: url("image/map\ de\ st\ leon3.jpg");
+    background-size: cover;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+
+button{
+    position: 10px 10px;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    color: whitesmoke;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family:"mypolice";
+}
+.boutonPrincipal{
+    font-family:"mypolice";
+    color: whitesmoke;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    size-adjust: 150px;
+    padding: 10px 10px;
+    margin:4px 2px;
+   
+}
+
+.premierdiv{
+    float: left;
+    padding: 3%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: 50px;
+    height: 50px;
+    font-family: "mypolice";
+}
+
+div.scroll-container {
+  background-color: rgba(173, 216, 230, 0.253);
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+
+
+div.gallery {
+  border: 1px solid #ffffff17;
+  background-color: rgba(4, 23, 41, 0.301);
+}
+
+div.gallery:hover {
+  border: 1px solid #ffffff;
+}
+
+div.gallery img {
+  width: auto;
+  height: 200px;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+  color:darkred;
+  font-family: "yorkten-slab-normal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.lehangar{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    size-adjust: 100px;
+}
+
+.video1{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    size-adjust: 100px;
+}
+
+.video2{
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    size-adjust: 100px;
+}
+
+.videoHangar{
+    position left: 2000px;
+    position right: 2000px;
+    top: 50px;
+
+}
+
+h3{
+    color:rgb(0, 20, 41); font-size: 12px;
+    font-family: "yorkten-slab-normal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 40px;
+    margin-right: 750px;
+    background-color: rgba(176, 224, 230, 0.349);
+    padding: 10px;
+}
+
+h4{
+    color:darkred; font-size: 12px;
+    font-family: "yorkten-slab-normal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 800px;
+
+}

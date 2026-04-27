@@ -1,0 +1,65 @@
+/* Pistes d'exploration :
+- changer la police de caractères
+      @font-face
+      font-family: ;
+- changer la graisse (bold, light, etc.)
+      font-weight: ;
+- changer le style (normal, italic, oblique)
+      font-style: ;
+- changer la largeur (condensed, expanded)
+      font-stretch: ;
+- changer la décoration (underline, overline, line-through)
+      text-decoration: ;
+- changer la casse (uppercase, lowercase, capitalize)
+      text-transform: ;
+- modifier l’interlettrage
+      letter-spacing: ;
+- modifier l’interligne
+      line-height: ;
+- changer l’espacement des mots
+      word-spacing: ;
+- tester les césures
+      hyphens: ;
+- ajouter une ombre portée (drop shadow)
+      text-shadow: ;
+- rendre le texte flou
+      filter: ;
+- l’animer (jouer avec rotation, opacité, couleur, fond)
+      transition: ;
+      transform: ;
+      opacity: ;
+      background-color: ;
+- changer l’interaction au survol (:hover)
+      :hover {
+      }
+- amusez-vous !
+      mix-blend-mode: ;
+      writing-mode: ;
+      transform: ;
+*/
+
+
+body {
+  margin: 40px;
+  padding: 40px;
+  background-color: white;
+}
+
+.titre-projet {
+  font-family: Georgia, serif; 
+  text-transform: lowercase;
+  animation: pulse 1s infinite;
+}
+
+/* interaction au survol */
+.titre-projet:hover {
+  filter: blur(10px);
+  transition: all 0.2s ease;
+}
+
+/* animation */
+@keyframes pulse {
+  0% { color: rgb(255, 223, 79); }
+  50% { color: rgb(202, 211, 27);}
+  100% { color: rgb(255, 223, 79);}
+}
